@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <name>ToolkitQuests</name>
+    <author>SirRandoo</author>
+    <packageId>sirrandoo.tkcore.quests</packageId>
+    <description>A mod for turning quests into a poll chat can vote on.</description>
+    <url>https://github.com/sirrandoo/ToolkitQuests</url>
+    <supportedVersions>
+        <li>1.2</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>sirrandoo.tkcore.polls</packageId>
+            <displayName>ToolkitPolls</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2435838514</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>sirrandoo.tkcore.polls</li>
+    </loadAfter>
+</ModMetaData>
